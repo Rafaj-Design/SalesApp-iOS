@@ -1,0 +1,6 @@
+[submodule "SalesApp/Thirdparty/FontAwesome"]
+	path = SalesApp/Thirdparty/FontAwesome
+	url = git@github.com:alexdrone/ios-fontawesome.git
+[submodule "SalesApp/Thirdparty/FAKit"]
+	path = SalesApp/Thirdparty/FAKit
+	url = git@github.com:PrideChung/FontAwesomeKit.git
