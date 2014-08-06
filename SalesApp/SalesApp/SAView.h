@@ -1,5 +1,5 @@
 //
-//  SAViewController.h
+//  SAView.h
 //  SalesApp
 //
 //  Created by Ondrej Rafaj on 06/08/2014.
@@ -11,13 +11,11 @@
 #import "SALang.h"
 
 
-@interface SAViewController : UIViewController
+@interface SAView : UIView
 
 - (void)createAllElements;
 - (void)configureColors;
 - (void)layoutElements;
-
-- (void)addChildViewController:(UIViewController *)childController withFrame:(CGRect)frame;
 
 
 @end

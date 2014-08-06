@@ -7,6 +7,7 @@
 //
 
 #import "SAPhoneMasterViewController.h"
+#import "SAMapViewController.h"
 
 
 @interface SAPhoneMasterViewController ()
@@ -27,12 +28,23 @@
 
 - (void)createAllElements {
     [super createAllElements];
+    
+    SAMapViewController *c = [[SAMapViewController alloc] init];
+    [self showViewController:c];
 }
 
 #pragma mark Navigation
 
-- (void)showViewController:(SAViewController *)vc {
+- (void)showViewController:(UIViewController *)vc {
+    [vc.view setFrame:self.view.frame];
+    
     [super showViewController:vc];
+}
+
+#pragma mark Actions
+
+- (void)didClickMenuButton:(id)sender {
+    [super didClickMenuButton:sender];
 }
 
 

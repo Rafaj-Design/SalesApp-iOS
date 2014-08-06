@@ -17,6 +17,12 @@
 @implementation SAViewController
 
 
+#pragma mark Layout
+
+- (void)layoutElements {
+    
+}
+
 #pragma mark Configure colors
 
 - (void)configureColors {
@@ -40,7 +46,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self layoutElements];
     [self configureColors];
+}
+
+#pragma mark Navigation
+
+- (void)addChildViewController:(UIViewController *)childController withFrame:(CGRect)frame {
+    [super addChildViewController:childController];
+    
+    [childController.view setFrame:frame];
+    [self.view addSubview:childController.view];
+    [childController didMoveToParentViewController:self];
+}
+
+- (void)addChildViewController:(UIViewController *)childController {
+    [self addChildViewController:childController withFrame:self.view.bounds];
 }
 
 

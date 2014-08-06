@@ -70,6 +70,26 @@
 		15F0532619925AD6009111AE /* NSDate+Formatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0531C19925AD6009111AE /* NSDate+Formatting.m */; };
 		15F0532719925AD6009111AE /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0531E19925AD6009111AE /* UIView+Borders.m */; };
 		15F0532819925AD6009111AE /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0531E19925AD6009111AE /* UIView+Borders.m */; };
+		15F0532D19926AD4009111AE /* SAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0532C19926AD4009111AE /* SAView.m */; };
+		15F0532E19926AD4009111AE /* SAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0532C19926AD4009111AE /* SAView.m */; };
+		15F0538719926F08009111AE /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0534E19926F08009111AE /* UIView+AutoLayout.m */; };
+		15F0538819926F08009111AE /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F0534E19926F08009111AE /* UIView+AutoLayout.m */; };
+		15F053B819929794009111AE /* SAMenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053B719929794009111AE /* SAMenuItemModel.m */; };
+		15F053B919929794009111AE /* SAMenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053B719929794009111AE /* SAMenuItemModel.m */; };
+		15F053BC199297A3009111AE /* SAMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053BB199297A3009111AE /* SAMenuController.m */; };
+		15F053BD199297A3009111AE /* SAMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053BB199297A3009111AE /* SAMenuController.m */; };
+		15F053C11992985C009111AE /* SAError.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053C01992985C009111AE /* SAError.m */; };
+		15F053C21992985C009111AE /* SAError.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053C01992985C009111AE /* SAError.m */; };
+		15F053C71992CC50009111AE /* SAMenuSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053C61992CC50009111AE /* SAMenuSectionModel.m */; };
+		15F053C81992CC50009111AE /* SAMenuSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053C61992CC50009111AE /* SAMenuSectionModel.m */; };
+		15F053CD1992CF79009111AE /* SATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053CC1992CF79009111AE /* SATableView.m */; };
+		15F053CE1992CF79009111AE /* SATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053CC1992CF79009111AE /* SATableView.m */; };
+		15F053D41992D5DB009111AE /* SAMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053D31992D5DB009111AE /* SAMenuView.m */; };
+		15F053D51992D5DB009111AE /* SAMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053D31992D5DB009111AE /* SAMenuView.m */; };
+		15F053DB1992E59A009111AE /* SATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053DA1992E59A009111AE /* SATableViewCell.m */; };
+		15F053DC1992E59A009111AE /* SATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053DA1992E59A009111AE /* SATableViewCell.m */; };
+		15F053DF1992E5C5009111AE /* SAMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053DE1992E5C5009111AE /* SAMenuTableViewCell.m */; };
+		15F053E01992E5C5009111AE /* SAMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F053DE1992E5C5009111AE /* SAMenuTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +167,27 @@
 		15F0531C19925AD6009111AE /* NSDate+Formatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatting.m"; sourceTree = "<group>"; };
 		15F0531D19925AD6009111AE /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borders.h"; sourceTree = "<group>"; };
 		15F0531E19925AD6009111AE /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Borders.m"; sourceTree = "<group>"; };
+		15F0532B19926AD4009111AE /* SAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAView.h; sourceTree = "<group>"; };
+		15F0532C19926AD4009111AE /* SAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAView.m; sourceTree = "<group>"; };
+		15F0534D19926F08009111AE /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AutoLayout.h"; path = "Source/UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		15F0534E19926F08009111AE /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AutoLayout.m"; path = "Source/UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		15F053B619929794009111AE /* SAMenuItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuItemModel.h; sourceTree = "<group>"; };
+		15F053B719929794009111AE /* SAMenuItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuItemModel.m; sourceTree = "<group>"; };
+		15F053BA199297A3009111AE /* SAMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuController.h; sourceTree = "<group>"; };
+		15F053BB199297A3009111AE /* SAMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuController.m; sourceTree = "<group>"; };
+		15F053BF1992985C009111AE /* SAError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAError.h; sourceTree = "<group>"; };
+		15F053C01992985C009111AE /* SAError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAError.m; sourceTree = "<group>"; };
+		15F053C51992CC50009111AE /* SAMenuSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuSectionModel.h; sourceTree = "<group>"; };
+		15F053C61992CC50009111AE /* SAMenuSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuSectionModel.m; sourceTree = "<group>"; };
+		15F053CB1992CF79009111AE /* SATableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATableView.h; sourceTree = "<group>"; };
+		15F053CC1992CF79009111AE /* SATableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATableView.m; sourceTree = "<group>"; };
+		15F053D11992D164009111AE /* SATableControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATableControllerProtocol.h; sourceTree = "<group>"; };
+		15F053D21992D5DB009111AE /* SAMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuView.h; sourceTree = "<group>"; };
+		15F053D31992D5DB009111AE /* SAMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuView.m; sourceTree = "<group>"; };
+		15F053D91992E59A009111AE /* SATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATableViewCell.h; sourceTree = "<group>"; };
+		15F053DA1992E59A009111AE /* SATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATableViewCell.m; sourceTree = "<group>"; };
+		15F053DD1992E5C5009111AE /* SAMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuTableViewCell.h; sourceTree = "<group>"; };
+		15F053DE1992E5C5009111AE /* SAMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +230,12 @@
 			isa = PBXGroup;
 			children = (
 				15F0528519924DE7009111AE /* Thirdparty */,
+				15F053CF1992CFAF009111AE /* Protocols */,
 				15F0531419925AC6009111AE /* Categories */,
+				15F053B219929741009111AE /* Data controllers */,
+				15F053B319929749009111AE /* Model */,
 				15F0530019925253009111AE /* Libs */,
+				15F0532919926ABB009111AE /* Views */,
 				15F0527019924279009111AE /* Controllers */,
 				159DCB391992419D00A10CF9 /* AppDelegate.h */,
 				159DCB3A1992419D00A10CF9 /* AppDelegate.m */,
@@ -281,6 +326,7 @@
 		15F0528519924DE7009111AE /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
+				15F0532F19926F08009111AE /* Autolayout */,
 				15F052DE19925241009111AE /* FontAwesomeKit */,
 				15F0528619924DE7009111AE /* FontAwesome */,
 			);
@@ -414,6 +460,150 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		15F0532919926ABB009111AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15F053D61992E562009111AE /* Cells */,
+				15F053C91992CF34009111AE /* Menu */,
+				15F0532A19926AC3009111AE /* Basic */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		15F0532A19926AC3009111AE /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				15F053CA1992CF3D009111AE /* Table view */,
+				15F0532B19926AD4009111AE /* SAView.h */,
+				15F0532C19926AD4009111AE /* SAView.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		15F0532F19926F08009111AE /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				15F0534D19926F08009111AE /* UIView+AutoLayout.h */,
+				15F0534E19926F08009111AE /* UIView+AutoLayout.m */,
+			);
+			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		15F053B219929741009111AE /* Data controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15F053B419929774009111AE /* Menu */,
+			);
+			name = "Data controllers";
+			sourceTree = "<group>";
+		};
+		15F053B319929749009111AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15F053C31992CC29009111AE /* Menu */,
+				15F053BE1992984B009111AE /* Error */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		15F053B419929774009111AE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				15F053BA199297A3009111AE /* SAMenuController.h */,
+				15F053BB199297A3009111AE /* SAMenuController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		15F053B51992977C009111AE /* Menu item */ = {
+			isa = PBXGroup;
+			children = (
+				15F053B619929794009111AE /* SAMenuItemModel.h */,
+				15F053B719929794009111AE /* SAMenuItemModel.m */,
+			);
+			name = "Menu item";
+			sourceTree = "<group>";
+		};
+		15F053BE1992984B009111AE /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				15F053BF1992985C009111AE /* SAError.h */,
+				15F053C01992985C009111AE /* SAError.m */,
+			);
+			name = Error;
+			sourceTree = "<group>";
+		};
+		15F053C31992CC29009111AE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				15F053C41992CC30009111AE /* Section */,
+				15F053B51992977C009111AE /* Menu item */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		15F053C41992CC30009111AE /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				15F053C51992CC50009111AE /* SAMenuSectionModel.h */,
+				15F053C61992CC50009111AE /* SAMenuSectionModel.m */,
+			);
+			name = Section;
+			sourceTree = "<group>";
+		};
+		15F053C91992CF34009111AE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				15F053D21992D5DB009111AE /* SAMenuView.h */,
+				15F053D31992D5DB009111AE /* SAMenuView.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		15F053CA1992CF3D009111AE /* Table view */ = {
+			isa = PBXGroup;
+			children = (
+				15F053CB1992CF79009111AE /* SATableView.h */,
+				15F053CC1992CF79009111AE /* SATableView.m */,
+			);
+			name = "Table view";
+			sourceTree = "<group>";
+		};
+		15F053CF1992CFAF009111AE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				15F053D11992D164009111AE /* SATableControllerProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		15F053D61992E562009111AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15F053D71992E568009111AE /* Menu */,
+				15F053D81992E57D009111AE /* Basic */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		15F053D71992E568009111AE /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				15F053DD1992E5C5009111AE /* SAMenuTableViewCell.h */,
+				15F053DE1992E5C5009111AE /* SAMenuTableViewCell.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		15F053D81992E57D009111AE /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				15F053D91992E59A009111AE /* SATableViewCell.h */,
+				15F053DA1992E59A009111AE /* SATableViewCell.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -478,6 +668,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 159DCB291992419D00A10CF9;
 			productRefGroup = 159DCB331992419D00A10CF9 /* Products */;
@@ -525,22 +716,32 @@
 			files = (
 				15F05312199256FD009111AE /* SAMasterViewController.m in Sources */,
 				15F052C419924DE7009111AE /* NSString+FontAwesome.m in Sources */,
+				15F053C11992985C009111AE /* SAError.m in Sources */,
 				15F0532719925AD6009111AE /* UIView+Borders.m in Sources */,
 				15F052C019924DE7009111AE /* FAImageView.m in Sources */,
+				15F053D41992D5DB009111AE /* SAMenuView.m in Sources */,
 				15F0532319925AD6009111AE /* UIView+Layout.m in Sources */,
+				15F053C71992CC50009111AE /* SAMenuSectionModel.m in Sources */,
 				15F05283199242F6009111AE /* SAGroupViewController.m in Sources */,
 				15F0531F19925AD6009111AE /* UIColor+Tools.m in Sources */,
 				15F0527419924298009111AE /* SAViewController.m in Sources */,
 				15F052D219924E4A009111AE /* SAMapViewController.m in Sources */,
 				15F0532119925AD6009111AE /* UIImage+Tools.m in Sources */,
+				15F0532D19926AD4009111AE /* SAView.m in Sources */,
 				15F052F019925241009111AE /* FAKFoundationIcons.m in Sources */,
 				15F0527E199242E0009111AE /* SAMenuViewController.m in Sources */,
 				15F0530319925268009111AE /* SALang.m in Sources */,
 				15F05309199256A4009111AE /* SATabletMasterViewController.m in Sources */,
+				15F053BC199297A3009111AE /* SAMenuController.m in Sources */,
+				15F053B819929794009111AE /* SAMenuItemModel.m in Sources */,
 				15F052CA19924DE7009111AE /* UIFont+FontAwesome.m in Sources */,
 				15F052F619925241009111AE /* FAKZocial.m in Sources */,
+				15F053CD1992CF79009111AE /* SATableView.m in Sources */,
+				15F053DB1992E59A009111AE /* SATableViewCell.m in Sources */,
+				15F0538719926F08009111AE /* UIView+AutoLayout.m in Sources */,
 				15F05279199242C0009111AE /* SAListingViewController.m in Sources */,
 				15F052DC19924F90009111AE /* SADetailViewController.m in Sources */,
+				15F053DF1992E5C5009111AE /* SAMenuTableViewCell.m in Sources */,
 				15F052F419925241009111AE /* FAKIonIcons.m in Sources */,
 				159DCB3E1992419D00A10CF9 /* SalesApp.xcdatamodeld in Sources */,
 				15F0530D199256B2009111AE /* SAPhoneMasterViewController.m in Sources */,
@@ -561,27 +762,37 @@
 				15F0532219925AD6009111AE /* UIImage+Tools.m in Sources */,
 				15F05284199242F6009111AE /* SAGroupViewController.m in Sources */,
 				15F0532619925AD6009111AE /* NSDate+Formatting.m in Sources */,
+				15F0538819926F08009111AE /* UIView+AutoLayout.m in Sources */,
 				15F052D819924E69009111AE /* SAIntroductionViewController.m in Sources */,
 				15F0527F199242E0009111AE /* SAMenuViewController.m in Sources */,
 				159DCB521992419D00A10CF9 /* SalesAppTests.m in Sources */,
 				15F052F519925241009111AE /* FAKIonIcons.m in Sources */,
 				15F0530419925268009111AE /* SALang.m in Sources */,
 				15F0532419925AD6009111AE /* UIView+Layout.m in Sources */,
+				15F053D51992D5DB009111AE /* SAMenuView.m in Sources */,
 				15F052EF19925241009111AE /* FAKFontAwesome.m in Sources */,
+				15F053BD199297A3009111AE /* SAMenuController.m in Sources */,
 				15F0532019925AD6009111AE /* UIColor+Tools.m in Sources */,
+				15F053C81992CC50009111AE /* SAMenuSectionModel.m in Sources */,
 				15F0530A199256A4009111AE /* SATabletMasterViewController.m in Sources */,
 				15F052C519924DE7009111AE /* NSString+FontAwesome.m in Sources */,
 				15F052F319925241009111AE /* FAKIcon.m in Sources */,
 				15F052CB19924DE7009111AE /* UIFont+FontAwesome.m in Sources */,
 				15F052F719925241009111AE /* FAKZocial.m in Sources */,
 				15F0527A199242C0009111AE /* SAListingViewController.m in Sources */,
+				15F0532E19926AD4009111AE /* SAView.m in Sources */,
 				15F05313199256FD009111AE /* SAMasterViewController.m in Sources */,
 				15F052DD19924F90009111AE /* SADetailViewController.m in Sources */,
 				15F0530E199256B2009111AE /* SAPhoneMasterViewController.m in Sources */,
 				15F052F119925241009111AE /* FAKFoundationIcons.m in Sources */,
+				15F053E01992E5C5009111AE /* SAMenuTableViewCell.m in Sources */,
+				15F053DC1992E59A009111AE /* SATableViewCell.m in Sources */,
 				15F052D319924E4A009111AE /* SAMapViewController.m in Sources */,
+				15F053B919929794009111AE /* SAMenuItemModel.m in Sources */,
 				15F052C119924DE7009111AE /* FAImageView.m in Sources */,
+				15F053C21992985C009111AE /* SAError.m in Sources */,
 				15F0532819925AD6009111AE /* UIView+Borders.m in Sources */,
+				15F053CE1992CF79009111AE /* SATableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

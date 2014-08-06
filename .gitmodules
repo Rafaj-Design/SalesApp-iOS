@@ -4,3 +4,6 @@
 [submodule "SalesApp/Thirdparty/FAKit"]
 	path = SalesApp/Thirdparty/FAKit
 	url = git@github.com:PrideChung/FontAwesomeKit.git
+[submodule "SalesApp/Thirdparty/Autolayout"]
+	path = SalesApp/Thirdparty/Autolayout
+	url = git@github.com:smileyborg/UIView-AutoLayout.git

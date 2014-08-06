@@ -21,6 +21,8 @@
 
 - (void)configureColors {
     [super configureColors];
+    
+    [self.view setBackgroundColor:[UIColor greenColor]];
 }
 
 #pragma mark Creating elements

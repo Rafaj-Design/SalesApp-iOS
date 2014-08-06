@@ -8,6 +8,12 @@
 
 #import "SAViewController.h"
 
+
+@class SAMenuView;
+
 @interface SAMenuViewController : SAViewController
+
+@property (nonatomic, readonly) SAMenuView *menuView;
+
 
 @end
